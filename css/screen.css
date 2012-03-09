@@ -1,4 +1,7 @@
-﻿.contact-container {
+﻿body {
+	padding-top: 60px;
+}
+.contact-container {
 	width: 400px;
 	padding: 10px;
 	border: 1px solid #aaa;

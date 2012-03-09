@@ -4,10 +4,21 @@
     <head>
         <meta charset="UTF-8" />
         <title>Backbone.js Web App</title>
+        
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/screen.css" />
     </head>
     <body>
-        <div id="contacts"></div>
+    	<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="#">Kontacts</a>
+				</div>
+			</div>
+    	</div>
+    	<div class="container">
+	        <div id="contacts"></div>
+    	</div>
         <script id="contactTemplate" type="text/template">
             <img src="<%= photo %>" alt="<%= name %>" />
             <h1><%= name %><span><%= type %></span></h1>
