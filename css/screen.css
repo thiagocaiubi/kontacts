@@ -1,5 +1,9 @@
 ﻿body {
 	padding-top: 60px;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: transparent;
+	background-origin: padding-box;
 }
 .contact-container {
 	width: 400px;
